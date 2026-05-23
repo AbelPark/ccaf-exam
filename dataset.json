@@ -1,0 +1,14 @@
+[
+  {
+    "task": "Extract the AWS region from an S3 bucket URI like 's3://my-bucket-name.s3.us-west-2.amazonaws.com/path/to/file'",
+    "format": "regex"
+  },
+  {
+    "task": "Parse an AWS CloudWatch log entry and extract the timestamp, log level, and message from a JSON-formatted log line",
+    "format": "python"
+  },
+  {
+    "task": "Create a CloudFormation template JSON object for an S3 bucket with versioning enabled and public access blocked",
+    "format": "json"
+  }
+]
