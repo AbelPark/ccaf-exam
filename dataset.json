@@ -1,14 +1,17 @@
 [
   {
-    "task": "Extract the AWS region from an S3 bucket URI like 's3://my-bucket-name.s3.us-west-2.amazonaws.com/path/to/file'",
-    "format": "regex"
+    "task": "Parse an AWS CloudWatch alarm name and extract the environment, service name, and metric type using a regular expression. Example alarm name: 'prod-payment-service-cpu-utilization-high'",
+    "format": "regex",
+    "solution_criteria": "The regex should correctly capture three groups: environment (prod), service name (payment-service), and metric type (cpu-utilization-high). Should handle variations with different environment names and service naming conventions."
   },
   {
-    "task": "Parse an AWS CloudWatch log entry and extract the timestamp, log level, and message from a JSON-formatted log line",
-    "format": "python"
+    "task": "Write a Python function that takes an AWS S3 bucket name and returns a valid CloudFront distribution configuration JSON for that bucket. The function should return only the distribution config object.",
+    "format": "python",
+    "solution_criteria": "Function should return a valid CloudFront distribution configuration with proper S3 origin domain, default cache behavior, and enabled status. Should use appropriate AWS CloudFront schema structure."
   },
   {
-    "task": "Create a CloudFormation template JSON object for an S3 bucket with versioning enabled and public access blocked",
-    "format": "json"
+    "task": "Generate a JSON object representing an AWS IAM policy that grants read-only access to a specific S3 bucket named 'company-data-lake' and all objects within it.",
+    "format": "json",
+    "solution_criteria": "JSON should be a valid IAM policy with correct Version, Statement structure, proper Action array (s3:GetObject, s3:ListBucket), Resource ARNs for both bucket and objects, and Effect set to Allow."
   }
 ]

@@ -1,0 +1,161 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon preparation with high carbohydrate intake and optimal hydration strategy",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers all 3 meals and snacks for a single day",
+      "Emphasizes high carbohydrate content appropriate for marathon training",
+      "Includes specific hydration recommendations throughout the day",
+      "Provides realistic, compact format suitable for an athlete's schedule"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a professional marathon runner requiring high-carbohydrate intake and hydration strategy"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "72 kg",
+      "goal": "Competition preparation with easily digestible meals that won't cause stomach discomfort during swimming",
+      "restrictions": "Lactose intolerant, no high-fiber foods"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meals for one day",
+      "All meals are easily digestible and unlikely to cause stomach discomfort in water",
+      "Plan respects lactose intolerance and avoids high-fiber foods",
+      "Meals provide adequate calories and nutrients for a competitive swimmer"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a swimmer preparing for competition requiring meals that won't cause stomach discomfort in water"
+  },
+  {
+    "prompt_inputs": {
+      "height": "160",
+      "weight": "48",
+      "goal": "Support flexibility and performance while minimizing bloating during training",
+      "restrictions": "No dairy, no high-fiber foods, no heavy oils"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meals for one full day",
+      "All meals are light, easily digestible, and avoid bloating triggers",
+      "Meals support flexibility and athletic performance for an elite gymnast",
+      "All dietary restrictions are respected"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with an elite gymnast needing light meals that support flexibility and minimal bloating"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178",
+      "weight": "75",
+      "goal": "High protein intake for CrossFit performance",
+      "restrictions": "Vegetarian"
+    },
+    "solution_criteria": [
+      "Meal plan covers all meals for one full day",
+      "All meals are vegetarian with plant-based protein sources",
+      "Provides adequate protein intake for an athlete of this size and goal"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a vegetarian CrossFit athlete needing high protein from plant-based sources"
+  },
+  {
+    "prompt_inputs": {
+      "height": "188 cm",
+      "weight": "95 kg",
+      "goal": "Build muscle and maintain energy for intense football training",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan totals 4000+ calories across all meals and snacks",
+      "Includes 5-6 eating occasions (breakfast, snack, lunch, snack, dinner, optional snack)",
+      "Provides high protein content (1.6-2.2g per kg body weight) to support muscle building",
+      "Meals are practical and quick to prepare for a busy teenager"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a teenage American football player with a 4000+ calorie daily requirement"
+  },
+  {
+    "prompt_inputs": {
+      "height": "183 cm",
+      "weight": "91 kg",
+      "goal": "Weight cut to 89 kg for weigh-in while maintaining strength and performance",
+      "restrictions": "Maximum 2000 calories, maximum 2000mg sodium, no high-sodium processed foods"
+    },
+    "solution_criteria": [
+      "Meal plan totals approximately 2000 calories or fewer",
+      "Total sodium content does not exceed 2000mg across all meals",
+      "Plan includes 3 distinct meals suitable for a heavyweight boxer maintaining muscle during weight cut",
+      "All meals are compact and realistic to consume within a single day"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a heavyweight boxer during a weight-cut phase with strict caloric and sodium constraints"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178",
+      "weight": "68",
+      "goal": "Sustained energy and endurance for ultramarathon running (50+ km)",
+      "restrictions": "Vegan diet only"
+    },
+    "solution_criteria": [
+      "Meal plan is 1 day only and includes 3+ meals/snacks with specific foods",
+      "All foods are vegan with no animal products",
+      "Includes protein sources that provide complete amino acid profiles (e.g., quinoa, legumes, nuts, seeds, tofu)",
+      "Provides adequate sustained energy for ultramarathon endurance needs"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a vegan ultramarathon runner needing sustained energy and complete amino acid profiles"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180",
+      "weight": "75",
+      "goal": "Endurance cycling performance with stable blood sugar management",
+      "restrictions": "Type 2 diabetes; requires low glycemic index foods and balanced carbohydrate distribution"
+    },
+    "solution_criteria": [
+      "Meal plan spans full day with breakfast, lunch, dinner, and snacks",
+      "All meals feature low glycemic index carbohydrates with protein and healthy fats to prevent blood sugar spikes",
+      "Includes pre/during/post-ride nutrition strategy appropriate for endurance cycling",
+      "Realistic and actionable with specific food examples"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a diabetic endurance cyclist needing blood sugar management throughout the day"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "72 kg",
+      "goal": "maintain energy and performance for soccer training and matches",
+      "restrictions": "vegetarian, no access to oven or stove (only microwave and hot water kettle), budget of $15 for the day"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meals and includes protein sources suitable for a vegetarian athlete",
+      "All foods are microwave-ready, no-cook, or require only hot water preparation",
+      "Total estimated cost does not exceed $15 and uses budget-friendly ingredients",
+      "Plan is compact and presented as a single day schedule with approximate calories and macronutrients noted"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a budget-conscious college soccer player with limited food access and cooking facilities"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "72 kg",
+      "goal": "Maximize energy and performance for explosive sprint training with 3 sessions scheduled at 7am, 12pm, and 5pm",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan includes 6 meals/snacks strategically timed around the 3 training sessions",
+      "Each pre-training meal/snack prioritizes quick-digesting carbohydrates and is consumed 30-90 minutes before training",
+      "Total daily macronutrients support sprint performance (~2800-3000 calories with adequate carbs for high-intensity work)",
+      "Plan is formatted as a single-day schedule with specific times and portion sizes"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sprinter requiring quick-digesting carbs and timing around explosive training sessions"
+  }
+]
